@@ -72,4 +72,4 @@ endif()
 
 add_library(UnitTest++ STATIC ${SOURCE_FILES})
 target_include_directories(UnitTest++ PUBLIC "")
-
+set_target_properties(UnitTest++ PROPERTIES FOLDER "${CZ_IDE_FOLDER}")
